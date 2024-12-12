@@ -3,7 +3,7 @@ channels:
   - https://repo.mamba.pm/emscripten-forge
   - conda-forge
 dependencies:
-  - python=3.12
+  - python=3.11
   - xeus-python
   - ipycanvas
   - matplotlib
@@ -16,8 +16,8 @@ dependencies:
   - ipydatagrid
   - folium
   - seaborn 
-  - datasets
-  - duckdb
+  #- datasets
+  #- duckdb
   - magic-duckdb
   - pyviz_comms
   
